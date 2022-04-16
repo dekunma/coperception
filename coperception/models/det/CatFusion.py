@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from coperception.models.det.base.FusionBase import FusionBase
+from coperception.models.det.base import FusionBase
 
 class CatFusion(FusionBase):
     """Concatenate fusion. Used as a lower-bound in the DisoNet paper."""

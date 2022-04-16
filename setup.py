@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
   name = 'coperception',
-  version = '0.0.4',
+  version = '0.0.5',
   package_data={
       "": ["*.so"],
   },
